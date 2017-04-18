@@ -1,0 +1,650 @@
+@import url(http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+/*Section DESCRIPTION */
+#col1 {
+	background: rgba(0,0,0,0.9);
+	height:100%;
+	
+}
+
+hr {
+	height:0px;
+	margin: 25px;
+	color: #d3d3d3;
+}
+
+/* Link to Return to all courses page*/
+
+#go_allcourses {
+    list-style: none;
+    margin-top: -4vw;
+    z-index: 10;
+    position: absolute;
+    margin-left: 89%;
+}
+
+#go_allcourses a {
+    font-size: 1vw;
+    color: #C7CED1;
+    margin-top: -0.55vw;
+}
+
+#go_allcourses a:hover{
+    color: white;
+    cursor: pointer;
+}
+
+/* Final of go all courses link */
+
+.text1 {
+	color:white;
+	font-size: 11px;
+	letter-spacing: 0.9px;
+	text-align: center;
+	font-family: 'Raleway', Arial, sans-serif;
+}
+
+.text2 {
+	color:white;
+	font-size: 25px;
+	letter-spacing: 1.1px;
+	text-align: center;
+	font-family: 'Raleway', Arial, sans-serif;
+}
+
+.text3 {
+	color:white;
+	font-size: 14px;
+	letter-spacing: 1.1px;
+	margin-top:60px;
+	margin-bottom:60px;
+	line-height:120%;
+	text-align: center;
+	font-family: 'Raleway', Arial, sans-serif;
+}
+
+.text4 {
+	color:white;
+	font-size: 14px;
+	letter-spacing: 1.1px;
+	margin-top:75px;
+	margin-bottom:75px;	
+	line-height:120%;
+	text-align: center;
+	font-family: 'Raleway', Arial, sans-serif;
+}
+
+.text5 {
+	color:white;
+	font-size:10px;
+	margin:0px;
+	text-align: right;
+	font-family: 'Raleway', Arial, sans-serif;
+}
+
+#col2 {
+		
+	text-align: center;
+	margin: 0px;
+	
+}
+
+#paragraph1 {
+	font-family: 'Raleway', Arial, sans-serif;
+	font-size: 1.1em;
+	letter-spacing: 1.1px;
+	text-align: justify;
+	line-height: 160%;
+	padding: 15px;
+	border-right: 0.25px solid #d3d3d3;		
+	border-left: 3px solid #d3d3d3;
+	max-width:95%	
+}
+
+#paragraph1:first-letter {
+	font-size:180%;
+}
+
+#paragraph2 {
+	font-family: 'Raleway', Arial, sans-serif;
+	font-size: 1.1em;
+	letter-spacing: 1.1px;
+	text-align: justify;
+	line-height: 160%;
+	padding: 15px;		
+	max-width:95%;		
+}
+
+#quotes {
+	background: rgba(128,128,128,0.25);
+	font-family: 'Raleway', Arial, sans-serif;
+	font-size: 1em;
+	text-align:center;
+	margin: 10px;
+	max-width:95%;
+}
+
+#row2 {
+	background: grey;
+	height: 50px;
+	margin:5px;
+	margin-top:10px;
+	
+}
+
+.btn {
+	margin:8px;
+	width: 98%;
+}
+
+/*******************************************************************************/
+/* Section TEACHER */
+/*******************************************************************************/
+
+#quotes1 {
+	background: rgba(128,128,128,0.1);
+	font-family: 'Raleway', Arial, sans-serif;
+	font-size: 1.1em;
+	text-align:justify;
+	margin: 10px;
+	max-width:95%;
+	text-align:110%;
+}
+
+#quotes1:first-letter {
+	font-size:180%;
+}
+
+#quotes2 {
+	background: rgba(211,211,211,0.15);
+	font-family: 'Raleway', Arial, sans-serif;
+	font-size: 1.1em;
+	text-align:justify;
+	margin: 10px;
+	max-width:95%;
+	text-align:110%;
+}
+
+#quotes2
+:first-letter {
+	font-size:180%;
+}
+
+#row3 {
+	background: grey;
+	height: 50px;
+	margin:5px;
+	margin-top:10px;
+	
+}
+
+.portrait {
+	height:200px;
+	width: 150px;	
+	margin-left:75px;
+	
+}
+
+.text6 {
+	color:white;
+	font-size: 11px;
+	font-weight:200;
+	letter-spacing: 1.1px;
+	margin-top:25px;
+	margin-bottom:20px;	
+	line-height:120%;
+	text-align: center;
+	font-family: 'Raleway', Arial, sans-serif;
+	border: 0.5px solid #fff;
+	padding: 12px;
+	margin-left:25px;
+	margin-right:25px;
+	background: rgba(105,105,105,0.25);
+}
+
+/* Teacher's footer Icons */
+
+#teacher_icons {
+    margin-left: 30px;
+}
+
+#icon {
+	color:#DCDCDC;
+	margin-left:35px;
+	margin-bottom:50px;	
+	opacity:0.8;
+}
+
+#icon:hover {
+	color: #ffffff;
+	opacity: 0.9
+	
+}
+
+#copyright a {
+	font-size: 11px;
+	color: #DCDCDC;
+	margin-top:25px;
+	margin-left:20px;
+}
+
+/***************************************************************************/
+/* Section DETAILS */
+/***************************************************************************/
+
+#table_detail {
+	font-family:'Raleway', Arial, sans-serif;
+	font-size:15px;
+	letter-spacing: 1.1px;
+ }
+
+ /***************************************************************************/
+/* Section Class Curriculum */
+/****************************************************************************/
+ 
+#start {
+	width:75%; 
+	position: right;
+ }
+ 
+ #see_more {
+	text-align:center;
+ } 
+ 
+th {
+	 background: #a8a8a8;
+}
+
+.container {
+	background:#ffffff;
+}
+
+.all {
+	background:#ededed;
+}
+
+/********************************************************************************/
+/* Section view offline */
+/********************************************************************************/
+
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400);
+
+/* card */
+
+.snip1423 {
+	font-family: 'Oswald', Arial, sans-serif;
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin:10px;	
+	position: relative;	
+	max-width: 23vw;
+	width: 25%; /* Fallback */
+	width: -webkit-calc(100% / 4);
+	width: calc(100% / 4);
+	background: #ffffff;
+	text-align: center;
+	color: #000000;
+	cursor:pointer;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+	font-size: 16px;
+	padding: 15px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+}
+
+.snip1423 * {
+  -webkit-box-sizing: padding-box;
+  box-sizing: padding-box;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+/* image of the card */
+.snip1423 img {
+  max-width: 100%;
+  vertical-align: top;
+  position: relative;
+}
+
+/* text */
+.snip1423 figcaption {
+  padding: 10px 15px;
+}
+
+/* text of the card */
+.snip1423 h3,
+.snip1423 p {
+  margin: 0;
+}
+.snip1423 h3 {
+  font-size: 2.5vw;
+  font-weight: 400;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.snip1423 p {
+  font-size: 1.2vw;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+.snip1423:hover,
+.snip1423.hover {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+
+
+/******************************************************/
+/* black background */
+/******************************************************/
+
+ .store {		
+	background-color: black;
+	width:92%;
+	margin-left: 40px;
+	margin-bottom: 5px;
+	margin-top: 10px;	
+}
+
+
+/*****************************************************************/
+/* device bar */
+/*****************************************************************/
+
+#device_bar {
+	background: #5b5b5b;
+	width:97.5%;
+	height:100px;
+}
+
+/* images */
+.appstore {	
+	width: 16vw;	
+	margin-top:1.5vw;
+	margin-left: 53vw;
+	cursor:pointer;	
+	opacity: 0.9;
+}
+
+.google_play {
+	width: 16vw;	
+	margin-top:1.5vw;	
+	cursor:pointer;	
+	opacity: 0.9;
+}
+
+/* text */
+.device {
+	position: absolute;
+	color: white;
+	font-family: 'Oswald', Arial, sans-serif;
+	font-size:2.0vw;
+	font-weight:300;
+	letter-spacing:0.5vw;
+	border: 1px solid #ffffff;
+	padding-top:0.5vw;
+	padding-bottom:0.5vw;
+	padding-left: 3.0vw;
+	padding-right: 3.0vw;
+	margin-left: 12vw;
+	margin-top: 2.5vw;	
+}
+
+
+
+
+
+
+/********************************************************************************/
+/* Example for media query: change number of items per row */
+/********************************************************************************/
+
+/*****************************************************************************/
+/* for Widder screen */
+/*****************************************************************************/
+
+@media screen and (max-width: 1950px) {
+    .parallax img {
+        height: 400%;
+        position: absolute;
+        padding-bottom: 5vw;
+    }
+    
+    #go_allcourses {
+        list-style: none;
+        margin-top: -2.9vw;
+        z-index: 10;
+        position: absolute;
+        margin-left: 85%;
+    }
+    
+    #go_allcourses a {
+        font-size: 1.3vw;
+        color: #C7CED1;
+        margin-top: -0.15vw;
+    }
+    
+    .portrait {
+        margin-left: 34%;
+    }
+    
+    #teacher_icons{
+        margin-left: 26%;
+    }
+    
+    #copyright_footer a {
+        font-size: 8px;
+        margin-left:5px;
+        
+    }
+    
+    #device_bar {
+	   height:200px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 1100px){
+    #go_allcourses {
+        list-style: none;
+        margin-top: -5.5vw;
+        z-index: 10;
+        position: absolute;
+        margin-left: 85%;
+    }
+
+    #go_allcourses a {
+        font-size: 1.3vw;
+        color: #C7CED1;
+        margin-top: -0.55vw;
+    }
+    
+    .portrait {
+        margin-left: 18%;
+    }
+    
+    #teacher_icons {
+        margin-left: 5%;
+    }
+}
+
+
+@media screen and (max-width: 960px) {
+	.snip1423 {
+		max-width: 20vw;
+		width: 25%; /* Fallback */
+		width: -webkit-calc(100% / 4);
+		width: calc(100% / 4);
+	}
+}
+/*****************************************************************************/
+/* for Ipad */
+/*****************************************************************************/
+
+@media screen and (max-width: 780px) {
+    .parallax img {
+        height: 300%;
+        position: absolute;
+        padding-bottom: 5vw;
+    }
+    
+	.snip1423{
+		max-width: 22vw;		
+	}
+
+	.device {				
+		margin-top: 5vw;
+	}
+	
+	.appstore {
+		width: 18vw;
+		margin-top: 4vw;
+	}
+	
+	.google_play {
+		width: 18vw;
+		margin-top: 4vw;
+	}
+    
+    .portrait {
+        margin-left: 39%;
+    }
+    
+    #teacher_icons{
+        margin-left: 35%;
+    }
+    
+    #go_allcourses {
+        list-style: none;
+        margin-top: -14vw;
+        z-index: 10;
+        position: absolute;
+        margin-left: 4%;
+    }
+
+    #go_allcourses a {
+        font-size: 1.8vw;
+        color: #C7CED1;
+        margin-top: -0.55vw;
+        border: 1px solid #C7CED1;
+        padding: 0.7vw;
+    }
+}
+
+/**************************************************************************/
+/* for Mobile */
+/**************************************************************************/
+
+/*iPhone6*/
+
+@media screen and (max-width: 670px){
+    #go_allcourses {
+        margin-top: -17vw;
+    }
+
+}
+
+/*iPhone6 final*/
+
+
+@media screen and (max-width: 420px) {
+    .parallax img {
+        height: 170%;
+        position: absolute;
+        padding-bottom: 5vw;
+    }
+    
+	.snip1423 {
+		max-width: 25vw;
+		margin: 20px;
+		margin-left: 65px;
+	}
+    
+    figure#third_pic {
+        position: absolute;
+        top: 0;
+        margin-top: 690px;
+    }
+	
+	.snip1423  h3{
+		font-size: 3vw;
+	}
+	
+	.snip1423 p {
+		font-size:1.75vw; 
+	}
+	
+	.store {
+		margin-left:15px;
+	}
+    
+    #go_allcourses {
+        margin-top: -23vw;
+        margin-left: 3%;
+    }
+
+    .portrait {
+        margin-left: 28%;
+    }
+    
+    #teacher_icons{
+        margin-left: 18%;
+    }
+
+	/* 
+	.device {
+		font-size: 3.5vw;
+		margin-left: 22vw;
+		margin-top: 12vw;
+	}
+	
+	.appstore {
+		width: 22vw;
+		margin-left: 90px;
+	}
+	
+	.google_play {
+		width: 22vw;
+	}
+    */
+    
+}
+
+/* For iPhone 5 */
+
+@media screen and (max-width: 360px){
+    #go_allcourses {
+        margin-top: -35vw;
+        margin-left: 3%;
+        font-size: 80px;
+    }
+    
+    .portrait {
+        margin-left: 70px;
+    }
+    
+    #teacher_icons {
+        margin-left: 30px;
+    }
+}
+
+
+/***********************************************************/
+/* HEADER SECTION */
+/* parallax */
+/**********************************************************/
+
+.parallax-container {
+	height: 360px;	
+}
+
+
