@@ -1,0 +1,1021 @@
+/******************************/
+/**** LEARNING ONLINE BOX *****/
+/******************************/
+
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,700);
+@import url(http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
+/* Learing Online box background */
+div#learningbox_container {
+    background: #191919;
+    width: 100%;
+}
+
+
+/* Learning Online bar */
+/* images */
+.devices {
+	width: 50%;
+	height: 310px;
+	float: left;
+	-webkit-filter: drop-shadow(8px 8px 10px grey);
+	filter: drop-shadow(8px 8px 10px grey);
+}
+
+.label {
+	width: 50%;
+	height: 310px;
+	float: right;
+	background: #f6f6f6;
+}
+
+/* Learn Anywhere bar */
+/* image */
+.devices1{
+	width: 50%;
+	height: 310px;
+	float: right;
+	-webkit-filter: drop-shadow(8px 8px 10px grey);
+	filter: drop-shadow(8px 8px 10px grey);
+}
+
+.label1 {
+	width: 50%;
+	height: 310px;
+	float: left;
+	background: #f6f6f6;
+}
+
+.title_eo {
+	font-size: 25px;
+	font-weight: 700;
+	letter-spacing: 1.1px;
+	font-family: font-family: 'Raleway', Arial, sans-serif;
+	text-align: left;
+	margin-left: 2vw;
+	
+}
+
+.text_eo {
+	font-size: 14px;
+	font-weight: 200;
+	letter-spacing: 0.9px;
+	font-family: 'Raleway', Arial, sans-serif;
+	text-align: left;
+	margin-left: 15px;
+	margin-top: -10px;	
+	color: #939393;
+	padding:15px;
+	
+}
+
+/* buttons */
+
+.btn_eo {
+	text-align: center;
+	padding: 5px;
+	border: 1px solid #3f3f3f;
+	max-width: 30%;
+	height:2.8vw;
+	margin-left: 300px;
+	margin-top: 30px;
+	font-family: 'Raleway', Arial, sans-serif;
+	font-size: 18px;
+	background: #696969;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.btn_eo:hover {
+    font-weight: 800;
+    box-shadow: 0.25vw 0.25vw 5px rgba(0,0,0,0.3),
+        0.35vw 0.35vw 5px rgba(0,0,0,0.28);
+}
+
+.btn_eo1 {
+	text-align: center;
+	padding: 5px;
+	border: 1px solid #3f3f3f;
+	max-width: 30%;
+	height:2.8vw;
+	margin-left: 2.2vw;
+	margin-top: 30px;
+	font-family: 'Raleway', Arial, sans-serif;
+	font-size: 18px;
+	background: #696969;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.btn_eo1:hover {
+   font-weight: 800;
+    box-shadow: 0.25vw 0.25vw 5px rgba(0,0,0,0.2),
+        0.35vw 0.35vw 5px rgba(0,0,0,0.18); 
+}
+
+/* Tecnichal bar */
+/* labels */
+
+.square1 {
+	width: 25%; /* Fallback */	
+	width: -webkit-calc(100% / 4);
+	width: calc(100% / 4);
+	height: 210px;
+	background: #545454;
+	float: left;
+}
+
+.square1:hover {
+	-ms-transform: scale(1.025, 1.025); /* IE 9 */
+    -webkit-transform: scale(1.025, 1.025); /* Safari */
+    transform: scale(1.025, 1.025);
+}
+
+.square2 {
+	width: 25%; /* Fallback */	
+	width: -webkit-calc(100% / 4);
+	width: calc(100% / 4);
+	height: 210px;
+	background: #696969;
+	float: left;
+}
+
+.square2:hover {
+	-ms-transform: scale(1.025, 1.025); /* IE 9 */
+    -webkit-transform: scale(1.025, 1.025); /* Safari */
+    transform: scale(1.025, 1.025);
+}
+
+.square3 {
+	width: 25%; /* Fallback */	
+	width: -webkit-calc(100% / 4);
+	width: calc(100% / 4);
+	height: 210px;
+	background: #939393;
+	float: left;
+}
+
+.square3:hover {
+	-ms-transform: scale(1.025, 1.025); /* IE 9 */
+    -webkit-transform: scale(1.025, 1.025); /* Safari */
+    transform: scale(1.025, 1.025);
+}
+
+.square4 {
+	width: 25%; /* Fallback */	
+	width: -webkit-calc(100% / 4);
+	width: calc(100% / 4);
+	height: 210px;	
+	background: #bdbdbd;
+	float: right;
+	opacity:1;
+}
+
+.square4:hover {
+	-ms-transform: scale(1.025, 1.025); /* IE 9 */
+    -webkit-transform: scale(1.025, 1.025); /* Safari */
+    transform: scale(1.025, 1.025);
+}
+
+/* title of the labels */
+
+.little_label {
+	color: #ffffff;
+	font-family: 'Raleway', Arial, sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	text-align: center;
+	margin-bottom: -15px;
+}
+
+.material-icons {
+	vertical-align: text-bottom;
+}
+
+/* paragraph of the label */
+
+.text_square {
+	color: #ffffff;
+	font-family: 'Raleway', Arial, sans-serif;
+	font-size: 13px;
+	font-weight: 300;
+	letter-spacing: 1px;
+	text-align: justify;
+	padding: 25px;
+	margin-bottom: -20px;
+}
+
+/* buttons */
+
+.btn_lb {
+	text-align: center;
+	padding: 2px;
+	padding-top: 10px;
+	border: 1px solid #ffffff;
+	max-width: 90px;
+	height:2.7vw;
+	margin-left: 32%;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	font-family: 'Raleway', Arial, sans-serif;
+	font-size: 14px;
+	background: rgba(105,105,105,0.25);
+	color: #ffffff;
+	cursor: pointer;
+	vertical-align: text-bottom;
+}
+
+hr {
+	height: 3px;
+	background: black;
+	margin:0px;
+}
+
+/* for mediaquery: change number of items per row */
+
+@media screen and (max-width: 945px) {
+	.square1 {
+		width: 25%; /* Fallback */
+		width: -webkit-calc(100% / 4);
+		width: calc(100% / 4);
+	}
+	
+	.square2 {
+		width: 25%; /* Fallback */
+		width: -webkit-calc(100% / 4);
+		width: calc(100% / 4);
+	}
+	
+	.square3 {
+		width: 25%; /* Fallback */
+		width: -webkit-calc(100% / 4);
+		width: calc(100% / 4);
+	}
+	
+	.square4 {
+		width: 25%; /* Fallback */
+		width: -webkit-calc(100% / 4);
+		width: calc(100% / 4);
+	}	
+	
+}
+
+
+@media screen and (max-width: 780px) {
+	.square1 {
+		width: 50%; /* Fallback */
+		width: -webkit-calc(100% / 2);
+		width: calc(100% / 2);
+	}
+	
+	.square2 {
+		width: 50%; /* Fallback */
+		width: -webkit-calc(100% / 2);
+		width: calc(100% / 2);
+	}
+	
+	.square3 {
+		width: 50%; /* Fallback */
+		width: -webkit-calc(100% / 2);
+		width: calc(100% / 2);
+	}
+	
+	.square4 {
+		width: 50%; /* Fallback */
+		width: -webkit-calc(100% / 2);
+		width: calc(100% / 2);
+	}
+	
+	.btn_eo {
+		margin-left: 100px;
+		margin-top: 5px;
+	}
+	
+	.btn_eo1 {
+		margin-top: 5px;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.square1{
+		width: 50%; /* Fallback */
+		width: -webkit-calc(100% / 2);
+		width: calc(100% / 2);
+	}
+	
+	.square2{
+		width: 50%; /* Fallback */
+		width: -webkit-calc(100% / 2);
+		width: calc(100% / 2);
+	}
+	
+	.square3{
+		width: 50%; /* Fallback */
+		width: -webkit-calc(100% / 2);
+		width: calc(100% / 2);
+	}
+	
+	.square4{
+		width: 50%; /* Fallback */
+		width: -webkit-calc(100% / 2);
+		width: calc(100% / 2);
+	}
+	
+	.btn_eo {
+		margin-left: 10px;
+		font-size: 14px;
+		max-width: 100px;
+		padding-top: 5px;
+		opacity: 0.75px;
+		margin-top: 15px;
+		
+	}
+	
+	.btn_eo1 {
+		margin-left: 10px;
+		font-size: 14px;
+		max-width: 100px;
+		padding-top: 5px;
+		margin-top:15px;
+	}
+	
+	.title_eo {
+		font-size: 15px;
+		margin-bottom: 8px;
+	}
+	
+	.text_eo {
+		font-size: 12px;
+		margin-bottom: -20px;
+	}
+	
+	.little_label {
+		font-size: 12px;
+	}
+	
+	.text_square {
+		font-size: 11px;
+	}
+	
+	.btn_lb {
+		margin-left: 20px;
+	}		
+	
+	#event_bar {
+		width:122%;
+	}
+	
+	.boxi4 {
+		display: none;
+	}
+	
+	.icon_label {
+		margin-top: 25px;
+		margin-right: 20px;		
+	}
+	
+	.curious_text {
+		margin-top: 45px;		
+		text-align: center;
+	}
+	
+	.little_title {
+		font-size: 2vw;
+	}
+	
+	
+}
+
+/* Community facts bar */
+
+/* divs */
+/* Grey box */
+.box1 {
+	width: 27%;
+	height: 175px;
+	background: #4CAFAC;
+	float: left;	
+	margin: 2px;
+}
+
+.community_title {
+	font-family: 'Raleway', Arial, sans-serif;
+	font-size: 4vw;	
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: -10px;
+}
+
+.community {
+	font-family: 'Raleway', Arial, sans-serif;
+	font-size: 1.6vw;
+	text-align: center;
+}
+
+/* black divs */
+.box2{
+	width: 18%;
+	height: 175px;
+	background: #2a2a2a;
+    background-image: url("../images/facts/articles.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: brightness(0.9);
+	float: left;
+	margin-left: 2px;
+	margin-top: 2px;
+}
+
+.box2:hover {
+	background-color: rgba(21,21,21,0.85);
+    cursor: pointer;
+}
+
+.boxi2 {
+	width: 18%;
+	height: 175px;
+	background: #2a2a2a;
+    background-image: url("../images/facts/courses.jpg");
+    background-size: 100% 75%;
+    background-repeat: no-repeat;
+    filter: brightness(0.9);
+	float: left;
+	margin-top: 2px;
+}
+
+.boxi2:hover {
+	background-color: rgba(21,21,21,0.85);
+    cursor: pointer;
+}
+
+.boxi3 {
+	width: 18%;
+	height: 175px;
+	background: #2a2a2a;
+    background-image: url("../images/facts/countries.jpg");
+    background-size: 100% 75%;
+    background-repeat: no-repeat;
+    filter: brightness(0.75);
+	float: left;
+	margin-top: 2px;	
+}
+
+.boxi3:hover {
+	background-color: rgba(21,21,21,0.85);
+    cursor: pointer;
+}
+
+.boxi4 {
+	width: 18%;
+	height: 175px;
+	background: #2a2a2a;
+    background-image: url("../images/facts/extension.png");
+    background-size: 100% 75%;
+    background-repeat: no-repeat;
+    filter: brightness(0.7);
+	float: left;
+	margin-top: 2px;
+}
+
+.boxi4:hover {
+	background-color: rgba(21,21,21,0.85);
+}
+
+/* number */
+.icon_label {
+	color: #ffffff;
+	font-size: 3vw;
+	text-align: center;
+	margin-bottom: -38px;
+}
+
+.icon_label span {
+    color: #fff;
+    z-index: 10;
+}
+
+/* icon */
+.curious_text {
+	color: #ffffff;
+	font-family: 'Raleway', Arial, sans-serif;
+	font-size: 3vw;
+	text-align: center;
+    padding-top: 0.5vw;
+}
+
+/* text */
+.little_title {
+	color: #ffffff;
+	font-family: 'Raleway', Arial, sans-serif;
+	font-size: 1.4vw;
+	text-align: center;
+}
+
+/**** LEARNING ONLINE BOX FINAL ******/
+
+
+/*******************************/
+/*** EVENTS ACCORDIAN SLIDER ***/
+/*******************************/
+
+
+/*Now the styles*/
+
+
+/*Time to apply widths for accordian to work
+Width of image = 640px
+total images = 5
+so width of hovered image = 640px
+width of un-hovered image = 40px - you can set this to anything
+so total container width = 640 + 40*4 = 800px;
+default width = 800/5 = 160px;
+*/
+
+/* div container */
+div#accordian_container {
+    margin: 0; 
+	padding: 0;
+    background: #191919;
+    padding-bottom: 0.1%;
+    padding-top:0.1%;
+}
+
+/* Upcoming Events Text Container */
+
+div#events_header {
+    margin: 0; 
+	padding: 0;
+    background: #white;
+    overflow: visible;
+    z-index: 2;
+    position: absolute;
+    width:27.5%;
+    margin-left: 70%;
+    margin-top: 6.5%;
+    
+}
+
+div#events_header img {
+    margin: 0; 
+	padding: 0;
+    width:75%;
+    height: 40%;
+    margin-left: 22.75%;
+    position: absolute;
+    margin-top: -21%;
+    filter: brightness(0.9);
+    border: 0.7vw solid #fff;
+}
+
+div#lightColor_box{
+    margin: 0; 
+	padding: 0;
+    position: absolute;
+    background-color: rgba(255,255,255,0.7);
+    height: 12.2vw;
+    margin-top: -24%;
+    margin-left: 10%;
+    width: 100%;
+}
+
+div#color_box {
+    margin: 0; 
+	padding: 0;
+    position: absolute;
+    z-index: ;
+    margin-top: 20%;
+    margin-left: 10%;
+    width: 100%;
+    height: 21.4vw;;
+    background-color: rgba(255,255,255,0.15);
+    
+}
+
+div#accordian_container object#upcoming {
+    margin: 0; 
+	padding: 0;
+    position: relative;
+    top: 2vw;
+    width: 3vw;
+    margin-left: 39.5%;
+    margin-top: 19%;
+    border: 0.3vw solid #fafafa;
+}
+
+div#vert_line {
+    margin: 0; 
+	padding: 0;
+    position: absolute;
+    border-left: 2px solid #fafafa;
+    height: 4vw;
+    z-index: 10;
+    margin-top: -1.9vw;
+    margin-left: 60.5%;
+}
+
+div#vert_line:before {
+    margin: 0; 
+	padding: 0;
+    content: "\f073";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    position: relative;
+    padding-left: 2.5vw;
+    font-size: 2.8vw;
+    color: #fafafa;
+}
+
+div#accordian_container h1 {
+    margin: 0; 
+	padding: 0;
+    margin-top: 10%;
+    margin-left: 24%;
+    text-align: center;
+    font-size: 2.2vw;
+    text-transform: uppercase;
+}
+
+div#accordian_container h1 span {
+    margin: 0; 
+	padding: 0;
+    display: block;
+}
+
+div#accordian_container h1 span:nth-child(1){
+    margin: 0; 
+	padding: 0;
+    color: yellowgreen;
+    font-size: 70%;
+    margin-left: -4%;
+}
+
+div#accordian_container h1 span:nth-child(2) {
+    margin: 0; 
+	padding: 0;
+    color: white;
+    background: black;
+    width: 100%;
+    margin-left: 0%;
+    font-size: 1.6vw;
+    letter-spacing: 0.65vw;
+}
+
+p#events_intro {
+    margin: 0; 
+	padding: 0;
+    color: #fafafa;
+    font-size: 1vw;
+    width: 75%;
+    padding: 1vw;
+    text-align: center;
+    margin-left: 25%;
+}
+
+div#events_header h6 {
+    margin: 0; 
+	padding: 0;
+    color: white;
+    z-index: 10;
+    margin-top: 2%;
+    margin-left: 30%;
+    font-size: 1vw;
+    font-weight: 500;
+    border: 1px solid #fafafa;
+    padding: 0.7vw;
+    width: 60%;
+    text-align: center;
+}
+
+div#events_header h6:hover {
+    margin: 0; 
+	padding: 0;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 5px 5px rgba(0,0,0,0.8);
+    background: rgba(254,254,254,0.2);
+}
+
+
+/* Upcoming Events Accordion */
+
+.accordian {
+    margin: 0; 
+	padding: 0;
+	width: 58.1vw; height: 23.5vw;
+	overflow: hidden;
+    
+	
+	/*Time for some styling*/
+	margin: 5% 7%;
+	box-shadow: 0 20px 10px 10px rgba(0, 0, 0, 0.35);
+	-webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+	-moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+}
+
+/*A small hack to prevent flickering on some browsers*/
+.accordian ul {
+    margin: 0; 
+	padding: 0;
+	width: 200vw;
+	/*This will give ample space to the last item to move
+	instead of falling down/flickering during hovers.*/
+}
+
+.accordian li {
+    margin: 0; 
+	padding: 0;
+	position: relative;
+	display: block;
+	width: 12vw;
+	float: left;
+	
+	border-left: 1px solid #888;
+	
+	box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+	
+	/*Transitions to give animation effect*/
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	/*If you hover on the images now you should be able to 
+	see the basic accordian*/
+}
+
+/*Reduce with of un-hovered elements*/
+.accordian ul:hover li {width: 2.7vw;}
+/*Lets apply hover effects now*/
+/*The LI hover style should override the UL hover style*/
+.accordian ul li:hover {width: 46vw;}
+
+
+.accordian li img {
+    margin: 0; 
+	padding: 0;
+	display: block;
+}
+
+.accordian li img.image_background {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+/*Image title styles*/
+.image_title {
+    margin: 0; 
+	padding: 0;
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	left: 0; bottom: 0;	
+    width: 47vw;	
+
+}
+
+/* Image Buttom Title */
+.image_title a {
+    margin: 0; 
+	padding: 0;
+	display: block;
+	color: #fff;
+    font-weight: 200;
+	text-decoration: none;
+	padding: 1.5vw;
+	font-size: 1.25vw;
+    position: absolute;
+    margin-top: -5.5vw;
+}
+
+/*Image title styles*/
+
+.image_title span{
+    margin: 0; 
+	padding: 0;
+	position: absolute;
+	left: 0; bottom: 0;	
+    width: 46vw;	
+
+}
+
+.image_title span {
+    margin: 0; 
+	padding: 0;
+	display: block;
+	color: #fff;
+    text-shadow: 2px 2px 5px #000;
+	text-decoration: none;
+	padding: 0.2vw 1.45vw;
+	font-size: 1vw;
+}
+
+
+/* Circle Text */
+
+.image_date {
+    margin: 0; 
+	padding: 0;
+    position: absolute;
+    padding: .1vw .1vw 0 0;
+    margin: 0.1vw;
+    margin-left: 0.9vw;
+    width: 3.9vw;
+    height: 3.9vw;
+    border-radius: 50%;
+    font-size:1.1vw;
+    color: #fff;
+    line-height: 1.7vw;
+    text-align: center;
+    background: rgba(133, 126, 126,0.5);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.7)
+}
+
+.image_date span {
+    margin: 0; 
+	padding: 0;
+    font-size: 1.1vw
+}
+
+/* Image place */
+
+.image_place {
+    margin: 0; 
+	padding: 0;
+	position: absolute;
+	padding: 0.1vw 1.5vw 0;
+    margin: 17.4vw 0 0 0;
+    height: 1.5vw;
+    color: #383838;
+    background-color: rgba(255,255,255,0.4);
+    width: 46vw;
+    font-size: 1vw;
+    text-transform: uppercase;
+    font-family: serif;
+    
+}
+
+.image_place span {
+    margin: 0; 
+	padding: 0;
+    transform: scaleY(3) scaleX(0.5);
+    font-weight: 800;
+}
+
+/* Main Data Course */
+
+
+.main_data {
+    margin: 0; 
+	padding: 0;
+    position: absolute;
+    background-color: rgba(255,255,255,0.3);
+    margin: 1vw 25.5vw;
+    padding: 0.2vw 1vw;
+    width: 21vw;
+    height: 2vw;
+    box-shadow: 0px 3px 3px 3px rgba(0,0,0,0.25);
+    
+}
+
+.main_data span {
+    margin: 0; 
+	padding: 0;
+    font-size: 1.1vw;
+    text-transform: uppercase;
+    position: absolute;
+    margin-left: 3vw;
+    font-family: serif;
+    color: #505050;
+    font-weight: 600;
+    line-height: 2vw;
+    letter-spacing: 0vw;
+    text-decoration: underline;
+}
+
+.main_data h5 {
+    margin: 0; 
+	padding: 0;
+    font-size: 1vw;
+    font-weight: 700;
+    color: #505050;
+    position: absolute;
+    margin-top: 2vw;
+    margin-left: 4.1vw;
+}
+
+/* Pastor avatar */
+.main_data img {
+    margin: 0; 
+	padding: 0;
+    height: 3vw;
+    width: 3vw;
+    position: absolute;
+    top: 1vw;
+    border-radius: 50%;
+    margin-left: -0.8vw;
+    
+}
+
+/* Main Data SVG */
+.main_data object {
+    margin: 0; 
+	padding: 0;
+    margin-left: -1.8vw;
+    margin-top: 3.5vw;
+    
+}
+
+/* button */
+
+a span#read_button {
+    margin: 0; 
+	padding: 0;
+    position: absolute;
+    padding: 0.6vw;
+    margin-left: 37vw;
+    margin-top: 20.5vw;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    color: #eaeaea;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px #000;
+    font-weight: 300;
+    text-align: center;
+    background: rgba(234,234,234,0.5);
+}
+
+a span#read_button:hover {
+    cursor: pointer;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+    background-color: rgba(255,255,255,0.1);
+}
+
+/* Media Queries brakepoints */
+
+@media screen and (max-width: 1100px) {
+    .main_data object {
+        width:114%;
+    }
+    .image_title a {
+        margin-top: -13vw;
+    }
+    .image_title span {
+        padding: 8vw 1.45vw;
+    }
+    a span#read_button {
+        font-size: 0.8vw;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .accordian li img.image_background {
+        height: 18vh;
+    }
+    .image_title a {
+        margin-top: -6vw;
+    }
+    .image_title span {
+        padding: 1vw 1.45vw;
+        font-size: 70%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .accordian li img.image_background {
+        height: 48vh;
+    }
+    .image_title a {
+        margin-top: -9.5vw;
+    }
+    .image_title span {
+        padding: 4.5vw 1.45vw;
+        font-size: 60%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .image_title a {
+        margin-top: -9vw;
+    }
+    .image_title span {
+        padding: 4vw 1.45vw;
+        font-size: 30%;
+    }
+    .accordian li img.image_background {
+        height: 15vh;
+    }
+}
+
+/****** EVENTS SLIDER BOX FINAL *******/
+
+
+
+
+
+
+

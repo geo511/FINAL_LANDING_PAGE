@@ -1,0 +1,160 @@
+/********************/
+/***** BLOG BOX *****/
+/********************/
+
+
+div#blog_container {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#020f15+0,111d2b+23,014075+57,2e71b5+79,1684e5+100 */
+    background: rgb(2,15,21); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(2,15,21,1) 0%, rgba(17,29,43,1) 23%, rgba(1,64,117,1) 57%, rgba(46,11,181,1) 79%, rgba(22,132,229,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(2,15,21,1) 0%,rgba(17,29,43,1) 23%,rgba(1,64,117,1) 57%,rgba(46,113,181,1) 79%,rgba(22,132,229,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(2,15,21,1) 0%,rgba(17,29,43,1) 23%,rgba(1,64,117,1) 57%,rgba(46,113,181,1) 79%,rgba(22,132,229,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#020f15', endColorstr='#1684e5',GradientType=0 ); /* IE6-9 */
+
+    margin: 0 auto;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    
+}
+
+
+/* Main Class of Cards */
+/* General Classes */
+
+.card .hoverable {
+  overflow: hidden;
+  position: relative;
+  transform-style: preserve-3d;
+  color: white;
+  height: 400px;
+
+  &.small	
+    height: 300px;
+	
+
+  &.medium
+    height: 400px;
+
+  &.large
+    height: 500px;
+}
+ 
+.card-image {
+	max-height: 100%;
+}
+
+.subtitle {
+	font-size:20px;
+	font-weight: 300;
+	
+}
+
+/* Date circle */
+
+.card__date {
+  background: #08c;
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  line-height: 13px;
+  font-weight: 400;
+  padding-top: 10px;
+ 
+}
+.card__date__day {
+  display: block;
+  font-size: 10px;
+  
+}
+.card__date__month {
+  display: block;
+  font-size: 7px;
+  text-transform: uppercase;
+}
+
+/* card horizontal */
+#date1 {
+	top:48px;
+	right:30px;
+}
+
+
+/* text from navbar */
+
+nav {
+	height: 80px;
+	
+}
+
+#subtitle {
+	font-size: 14px;
+	text-align: center;
+	margin-top: -10px;
+}
+
+#all_posts {
+	font-size: 12px;
+	text-align: center;
+	margin-top:1.5vw;
+    padding: 0.8% 15%;
+	margin-right: 30%;
+	border: 1px solid #ffffff;
+	max-width: 60%;
+	float: right;
+	cursor: pointer;
+}
+
+#all_posts:hover {
+	-ms-transform: scale(1.05, 1.05); /* IE 9 */
+    -webkit-transform: scale(1.05, 1.05); /* Safari */
+    transform: scale(1.05, 1.05);
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+    background: rgba(255,255,255,0.1);
+}
+
+.btn {
+	margin-left: 35px;
+	margin-top: -15px;
+}
+
+.flow-text {
+	color: #ffffff;
+	margin: 2px;
+	padding: 8px;
+}
+
+/* card's back face */
+
+.circle {
+	height: 75px;
+	width: 65px;
+}
+
+.first_chart{
+	text-align: justify;
+	font-size: 15px;
+	font-weight:250;
+}
+
+p.first_chart:first-letter {
+	color:#000000;
+	font-size: 150%;
+}
+
+.btn-floating {
+	margin-top:-45px;
+	margin-right: 10px;
+	height: 35px;
+	width: 35px;
+	opacity:0.8;
+}
+
+/**** BLOG BOX FINAL *****/
+	
+ 
+ 
