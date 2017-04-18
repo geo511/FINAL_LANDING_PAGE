@@ -1,0 +1,6 @@
+path, polyline, polygon, text
+{
+	stroke: 0;
+	stroke-linejoin: butt;
+	fill: #cecece;
+}
