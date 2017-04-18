@@ -1,0 +1,613 @@
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
+/*************************************************************/
+/* Header */
+/*************************************************************/
+.parallax-container {
+	height: 700px;	
+}
+
+
+.parallax img {
+    height: 140%;
+    position: absolute;
+    padding-bottom: 5vw;
+}
+
+
+/* Link to Return to home page*/
+
+#go_home {
+    list-style: none;
+    margin-top: -5vw;
+    margin-left: -2vw;
+    position: absolute;
+    margin-left: 90%;
+}
+
+
+#home_logo{
+    width: 55%;
+    margin-top: 0.5vw;
+    margin-left: 2vw
+}
+
+#home_logo:hover{
+    color: white;
+    cursor: pointer;
+}
+
+/* Final of go all courses link */
+
+.cbp-rfgrid {
+	margin: 15px 0 0 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+	width: 100%;
+}
+
+.cbp-rfgrid li {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	width: 25.0000%; /* Fallback */
+	width: -webkit-calc(100% / 4);
+	width: calc(100% / 4);
+}
+
+.cbp-rfgrid li a,
+.cbp-rfgrid li a img {
+	display: block;
+	width: 100%;
+	cursor: pointer;
+}
+
+.cbp-rfgrid li a img {
+	max-width: 100%;
+}
+
+/* Flexbox is used for centering the heading */
+.cbp-rfgrid li a div {
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	right: 20px;
+	bottom: 20px;
+	background: rgba(71,163,218,0.3);
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: flex;
+	-webkit-align-items: center;
+	-moz-align-items: center;
+	-ms-align-items: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+}
+
+.cbp-rfgrid li a:hover div {
+	opacity: 1;
+}
+
+.cbp-rfgrid li a div h3 {
+	width: 100%;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.4em;
+	letter-spacing: 2px;
+	padding: 0 10px;
+}
+
+.ion-android-open{
+	color:#fff;
+	font-size: 30px;
+	margin-right:20px;
+}
+
+
+/* text */
+
+@font-face {
+	font-family: 'fontawesome';
+	src:url('../fonts/fontawesome.eot');
+	src:url('../fonts/fontawesome.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/fontawesome.svg#fontawesome') format('svg'),
+		url('../fonts/fontawesome.woff') format('woff'),
+		url('../fonts/fontawesome.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body, html { font-size: 100%; 	padding: 0; margin: 0;}
+
+/* Reset */
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Clearfix hack */
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+body {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    color: #47a3da;
+
+}
+
+
+header.clearfix {
+	background-color: black;
+	height:100%;
+	margin-bottom: -35px;
+}
+
+header.clearfix h1 {
+	color:white;
+	font-size:4em;
+	clear:left;
+	margin-left:40px;	
+	padding:0.1em;
+	padding-right:-2em;
+	padding-top:0.5em;
+}
+
+header.clearfix span {
+	color: white;
+	font-size:1.4em;
+	padding: 0.4em;
+	position:relative;
+	margin-top:20px;
+	margin-left:50px;
+	float:left;	
+}
+
+pre.paragraph {
+	color:white;
+	font-size:17px;
+	float:left;
+	margin-top: -110px;
+	position:relative;
+	margin-left:180px;
+	background-color:rgba(0, 64, 255, 0.2);
+}
+
+pre#books_paragraph {
+    padding-top: 1vw;
+    margin-left: 20%;
+}
+
+/********************************************************************************/
+/*@media */
+/********************************************************************************/
+
+@media screen and (max-width: 1024px){
+    .parallax-container {
+	   height: 500px;	
+    }
+    
+    .parallax img {
+        height: 130%;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+	header.clearfix h1 {
+		font-size: 2em;
+	}
+	pre.paragraph{
+		font-size: 1.25em;
+		margin-top:-65px;
+		margin-left:-200px;
+		color:#fff;
+		position:relative;
+	}
+    
+    .parallax-container {
+	   height: 500px;	
+    }
+    
+    .parallax img {
+        height: 120%;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+	header.clearfix h1 {
+		font-size: 1.5em;
+	}
+	pre.paragraph{
+		font-size: .75em;
+		margin-top:-60px;
+		margin-left:-130px;
+		color:#fff;
+		position:relative;
+	}
+    
+    .parallax-container {
+	   height: 300px;	
+    }
+    
+    .parallax img {
+        height: 120%;
+        width: 70%;
+    }
+}
+
+/******************************************************************************/
+/* for media query: change number of items per row */
+/******************************************************************************/
+
+@media screen and (max-width: 1950px) {
+    #go_home {
+        margin-top: -5vw;    
+    }
+    
+    header.clearfix span {
+        font-size: 1.8vw;
+    }
+    
+    header.clearfix h1 {
+        font-size: 3.5vw;
+    }
+    
+    pre.paragraph {
+        font-size: 1.5vw;
+    }
+}
+
+
+@media screen and (max-width: 1400px) {
+	.cbp-rfgrid li {
+		width: 25%; /* Fallback */
+		width: -webkit-calc(100% / 4);
+		width: calc(100% / 4);
+	}
+}
+
+
+@media screen and (max-width: 800px) {
+	.cbp-rfgrid li {
+		width: 50%; /* Fallback */
+		width: -webkit-calc(100% / 2);
+		width: calc(100% / 2);
+	} 
+    
+    #img_cont {
+        margin-left: 7vw;
+    }
+    
+    #hno_Julio {
+        background: yellow;  
+        display: none;
+    }
+    #go_home {
+        margin-top: -9.5vw;    
+    }
+    
+    #home_logo{
+        width: 70%;
+        margin-top:-2vw;
+        margin-left: 1vw;
+    }
+    
+    pre.paragraph {
+        font-size: 1.5vw;
+        float: right;
+        margin-right: 90px;
+    }
+   
+}
+
+@media screen and (max-width: 420px) {
+	.cbp-rfgrid li {
+		width: 50%; /* Fallback */
+		width: -webkit-calc(100% / 2);
+		width: calc(100% / 2);
+	}
+    
+    #hno_Julio {
+        background: yellow;  
+        display: none;
+    }
+    
+    #go_home {
+        margin-top: -17.5vw;    
+    }
+    
+    #home_logo{
+        width: 100%;
+        margin-top:-2vw;
+        margin-left: -1vw;
+    }
+    
+    pre.paragraph {
+        font-size: 1.5vw;
+        float: right;
+        margin-right: 90px;
+    }
+   
+   
+}
+
+/*****************************************************/
+/* teachers bar */
+/*****************************************************/
+
+.teacher_bar {
+    background:#575757;
+    margin-top: 3.0vw;
+}
+
+.teacher_staff {
+    text-align: center;
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    font-size: 2.65vw;
+    color:white;
+    margin-top: 1.25vw;    
+}
+
+.teacher {    
+    width: 13.5%;
+    background: white;
+    padding: 0.5vw;
+    margin-left:0.45vw;  
+    margin-top: : -1.0vw;
+    margin-bottom: 0.95vw;
+    display:inline-block;    
+}
+
+.teacher img {
+    width: 12.5vw;
+    padding: 0.5vw;
+    
+}
+
+
+
+/********************/
+/** MINIMAL FOOTER **/
+/********************/
+
+/** General Layout **/
+
+.square-box{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+}
+
+.square-box:before {
+    content: "";
+    display: block;
+    padding-top: 40%;
+}
+
+.square-content {
+    position: absolute;
+    left: 0;
+    bottom: 0%;
+    right: 0;
+    color: white;
+}
+
+.square-content div {
+    display: table;
+    width: 100%;
+    height: 25%;
+}
+
+.square-innertext {
+    display: table-cell;
+    background: #2d2d2d;
+}
+
+.square-content p{
+    color: white;
+    margin-top: 5px;
+    font-size: 1.6vw;
+    text-align: center;
+}
+
+.square-content p:nth-child(2) span {
+    width: 50%;
+    text-align: center;
+    padding: 0.4% 7.5%;
+    margin-left: 1%;
+    font-size: 1.1vw;
+    text-transform: uppercase;
+    border: 1px solid  #a8b1b5;
+    color:  #a8b1b5;
+    border-radius: 4px;
+}
+
+/* Header input icons */
+
+
+.square-content p:nth-child(2) span i {
+    margin-left: 0.5em;
+}
+
+/* LINE TWO */
+
+.square-line2 {
+    display: table-row;
+    color: #fafafa;
+}
+
+/* Line Two Column 1*/
+.square-line2 div:first-child {
+    display: table-cell;
+    vertical-align: top;
+}
+
+object#logo{
+  float: left;
+  width: 7vw;
+  margin-top: 10%;
+  margin-left: 20%;
+}
+
+.padded-multiline {
+    float: left;
+    line-height: 1.5;
+    padding: 4% 2px 2px;
+    width: 35%;
+    margin: 2% 2% 0 0;
+    margin-top: 10%;
+}
+
+span.logo {
+    float: right;
+    color: #eceeef;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1vw;
+    font-weight: 500;
+    padding: 6% 5%;
+    padding-right: 2%;
+    margin-left: -15%;
+    box-decoration-break: clone;
+    border-left: 1px solid #eceeef;
+    
+}
+ /* Logo Footer text */
+
+div.logo_footer span{
+    color: white;
+    float: left;
+    font-size: 1.1vw;
+    font-weight: 200;
+    width: 20vw;
+    border-top: 1px solid #fff;
+    text-align: center;
+    margin: 1% 5%;
+}
+
+
+/* Line Two Column 2 and 3*/
+
+/* Section Layout */
+.square-line2 div {
+    display: table-cell;
+    width: 25%;
+}
+
+/* Links Section Column 2 and 3*/
+.square-line2 div:nth-child(2) p,
+.square-line2 div:nth-child(3) p {
+    font-size: 1.4vw;
+    text-align: left;
+    padding: 0.3em;
+    font-weight: 300;
+    color: #a8b1b5;
+}
+
+.square-line2 div:nth-child(3) p {
+    margin-left: 1em;
+}
+
+.square-line2 div:nth-child(2) i,
+.square-line2 div:nth-child(3) i {
+    font-size: 1.2vw;
+    margin-right: 0.5em;
+}
+
+.square-line2 div:nth-child(2) p:hover,
+.square-line2 div:nth-child(3) p:hover {
+    background-color: #0c0c0c;
+    cursor: pointer;
+    font-weight: 800;
+    color: white;
+}
+
+/* Line 2 column 4 */
+
+
+.square-line2 div:nth-child(4) {
+    display: table-cell;
+    vertical-align: top;
+    width: 50%;
+}
+
+.square-line2 div:nth-child(4) img {
+    width: 23vw;
+}
+
+/* LINE 3: footer-FOOTER */
+
+.square-line3 {
+    display: table-row;
+    color: #fafafa;
+    background: #2d2d2d;
+    height: 2vw;
+}
+
+.square-line3 div:nth-child(1){
+    display: table-cell;
+    width: 75%;
+}
+
+/* Left Zone: copyright */
+
+#copyright {
+	margin-top: px;
+    text-align: right;
+    padding-right: 25%;
+    font-size: 1vw;
+}
+
+#copyright a {
+    color: #fafafa;
+    font-size: 1.2vw;
+    font-weight: 400;
+	letter-spacing:0.1vw;
+}
+
+/* Zones of Links */
+
+.square-line3 div:nth-child(2) span {
+    display: table-cell;
+    width: 8.33%;
+    color: #a8b1b5;
+    padding-bottom: 8%;
+}
+
+.square-line3 div:nth-child(2) span span {
+    float: left;
+    margin-left: 7%;
+    font-size: 1.5vw;
+    padding-top: 14%;
+}
+
+.square-line3 div:nth-child(2) span i {
+    float: left;
+    font-size: 1.5vw;
+    padding-top: 15%;
+}
+
+.square-line3 div:nth-child(2) span:hover {
+    cursor: pointer;
+    background:#424242;
+    color: whitesmoke;
+}
+
+
+
